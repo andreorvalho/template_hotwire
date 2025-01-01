@@ -23,6 +23,8 @@ development:
 test:
   <<: *default
   database: template_hotwire_test
+  username: th_user_test
+  password: th_password_test
 
 # Store production database in the storage/ directory, which by default
 # is mounted as a persistent Docker volume in config/deploy.yml.
